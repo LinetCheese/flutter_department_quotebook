@@ -1,14 +1,17 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{enumitem}
 \usepackage[russian]{babel}
+\usepackage[a5paper]{geometry}
 
 \title{Цитаты флаттер департмента}
 \author{L. Moreandil, Kale Ndula, Despiad, Alexey and others}
+\date{}
 
 % Entry item
-\newcommand{\entry}[2] {\textbf{#1} \textemdash \emph{#2}}
+\newcommand{\entry}[2] {\large{\textmd{#1}} \textemdash \small{\emph{#2}}}
 
 %Common name shortcuts because I'm a lazy ass
 \newcommand{\kn}{Kale Ndula}
@@ -19,11 +22,8 @@
 \begin{document}
 
 \maketitle
-\begin{center}
-(Made with love and \LaTeX)
-\end{center}
 
-\begin{itemize}
+\begin{itemize}[leftmargin=0cm]
 
 \item \entry{У типа все в говне}{\kn}
 \item \entry{Мы вместе. Ну, не совсем так}{\kn}
